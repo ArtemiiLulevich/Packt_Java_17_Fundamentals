@@ -1,4 +1,4 @@
-package org.packt.java17Fundamentals;
+package org.packt.java17Fundamentals.Statements;
 
 public class Main {
 
@@ -36,5 +36,10 @@ public class Main {
         } catch (RuntimeException ex) {
                 System.out.println(ex.getMessage());
         }
+
+        int i = 0;
+        System.out.println(i++);
+
+        System.out.println("A".repeat(3).lastIndexOf("A"));
     }
 }
