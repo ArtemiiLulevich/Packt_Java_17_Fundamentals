@@ -9,6 +9,13 @@ public class Main {
 //        myClass.printNameLastName();
         myClass.age();
 
+        interface C {}
+        interface B extends C {}
+        class A implements B { }
+        B b = new A();
+        C c = new A();
+        A a1 = (A) b;
+        A a2 = (A) c;
 
     }
 

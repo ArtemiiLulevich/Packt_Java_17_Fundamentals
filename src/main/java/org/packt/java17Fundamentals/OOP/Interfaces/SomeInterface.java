@@ -1,6 +1,6 @@
 package org.packt.java17Fundamentals.OOP.Interfaces;
 
-public interface SomeInterface{
+sealed interface SomeInterface permits SomeClass {
     String name = "Artem";
     void printName();
 

@@ -1,6 +1,6 @@
 package org.packt.java17Fundamentals.OOP.Interfaces;
 
-public class SomeClass implements SomeInterface, SomeInterface2{
+public non-sealed class SomeClass implements SomeInterface, SomeInterface2{
 
     @Override
     public void printName() {

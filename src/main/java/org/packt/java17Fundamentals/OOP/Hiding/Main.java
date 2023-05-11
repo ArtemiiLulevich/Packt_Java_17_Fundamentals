@@ -1,5 +1,7 @@
 package org.packt.java17Fundamentals.OOP.Hiding;
 
+import org.packt.java17Fundamentals.OOP.Interfaces.SomeClass;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +13,6 @@ public class Main {
 //
 //        System.out.println(D.NAME);
 //        D.method();
-
         C obj = new D();
 
         System.out.println(obj.NAME);
